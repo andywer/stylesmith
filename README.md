@@ -4,10 +4,8 @@
 [![Code Climate](https://codeclimate.com/github/andywer/stylesmith/badges/gpa.svg)](https://codeclimate.com/github/andywer/stylesmith)
 [![NPM Version](https://img.shields.io/npm/v/stylesmith.svg)](https://www.npmjs.com/package/stylesmith)
 
-Stylesmith is a small zero-dependency library to use ES6 tagged template strings
-for component styling.
-
-It's primary purpose is to be used alongside with React.js and Radium.
+Stylesmith is a small zero-dependency library to use ES6 tagged **template strings**
+for component styling. It's primary purpose is to be used alongside with **React.js** and **Radium**.
 
 Inspired by [React: CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
 and Radium's enhanced style objects (':hover', '@media' keys and similar).
