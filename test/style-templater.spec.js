@@ -67,21 +67,21 @@ describe('stylessmith parser', () => {
   })
 
   it('can parse object parameters', () => {
-    const styless1 = {
+    const styles1 = {
       color: 'red'
     }
-    const styless2 = {
+    const styles2 = {
       color: 'yellow',
       'text-decoration': 'underline'
     }
 
     const styles = style`
       background: blue
-      ${styless1}
+      ${styles1}
 
       :hover {
         color: white
-        ${styless2}
+        ${styles2}
       }
     `
 
