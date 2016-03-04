@@ -1,5 +1,8 @@
 # Stylesmith
 
+[![Build Status](https://travis-ci.org/andywer/stylesmith.svg?branch=master)](https://travis-ci.org/andywer/stylesmith)
+[![Code Climate](https://codeclimate.com/github/andywer/stylesmith/badges/gpa.svg)](https://codeclimate.com/github/andywer/stylesmith)
+
 Stylesmith is a small zero-dependency library to use ES6 tagged template strings
 for component styling.
 
