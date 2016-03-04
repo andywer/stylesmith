@@ -84,9 +84,26 @@ style`
 }
 ```
 
-Looks much friendlier, doesn't it?
+Looks much friendlier, doesn't it? And no more CSS class name crazyness!
+The styles you define here are only applied to the elements you render with
+the `style` property set to it.
+
+
+## Why would I need that?
+
+As vjeux points out in his popular talk
+[React: CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js), CSS styling
+comes with some built-in troubles. Some of them can pretty easy be come over by
+using a pre-processor like SASS or LESS (like variables).
+
+But other problems persist and cannot easily be solved using stylesheets, such
+as the fact that CSS only knows one global scope. So you have to be very careful
+how to write your CSS selectors in order to not have them style things they are
+not supposed to and avoid naming clashes.
+
+React style objects provide
 
 
 ## License
 
-Licensed under the MIT license. See file LICENSE for details.
+Licensed under the terms of the MIT license. See file LICENSE for details.
