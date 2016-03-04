@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/andywer/stylesmith.svg?branch=master)](https://travis-ci.org/andywer/stylesmith)
 [![Code Climate](https://codeclimate.com/github/andywer/stylesmith/badges/gpa.svg)](https://codeclimate.com/github/andywer/stylesmith)
+[![NPM Version](https://img.shields.io/npm/v/stylesmith.svg)](https://www.npmjs.com/package/stylesmith)
 
 Stylesmith is a small zero-dependency library to use ES6 tagged template strings
 for component styling.
@@ -118,4 +119,4 @@ styles anymore!
 
 ## License
 
-Licensed under the terms of the MIT license. See file LICENSE for details.
+Licensed under the terms of the MIT license. See file [LICENSE](https://github.com/andywer/stylesmith/blob/master/LICENSE) for details.
