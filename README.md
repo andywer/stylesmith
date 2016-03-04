@@ -1,7 +1,7 @@
 # Stylesmith
 
-Stylesmith is a small ES6 (ES2015) syntax, zero-dependency library to provide
-tagged template strings for style creation.
+Stylesmith is a small zero-dependency library to use ES6 tagged template strings
+for component styling.
 
 It's primary purpose is to be used alongside with React.js and Radium.
 
@@ -101,7 +101,16 @@ as the fact that CSS only knows one global scope. So you have to be very careful
 how to write your CSS selectors in order to not have them style things they are
 not supposed to and avoid naming clashes.
 
-React style objects provide
+React's inline style objects provide a simple, yet powerful solution for the
+problem. Radium extends the concept by introducing nested ':hover', ':active',
+'@media', ... objects.
+
+The only problem is now that these objects tend to look quite unpleasant. Using
+ES6 template strings you can now write them just as a block of CSS rules and insert
+`${variable}` where you need to.
+
+Proper styling, easy and powerful. And you do not even have to preprocess your
+styles anymore!
 
 
 ## License
