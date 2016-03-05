@@ -22,6 +22,20 @@ describe('stylessmith parser', () => {
     })
   })
 
+  it('can parse static rules containing trailing semicolons', () => {
+    const styles = style`
+      background: blue
+      color: red;
+      margin: 20;
+    `
+
+    expect(styles).to.eql({
+      background: 'blue',
+      color: 'red',
+      margin: 20
+    })
+  })
+
   it('can parse nested selectors', () => {
     const styles = style`
       background: blue

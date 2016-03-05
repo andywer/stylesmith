@@ -19,7 +19,7 @@ import style from 'stylesmith'
 import { colors } from './my-theme'
 
 /*
- * You can use any JS variable in the template string style.
+ * You can use any JS variable in the template string style. Trailing semicolons are optional.
  * Pass strings or numbers as style rule values.
  * Pass an object to merge its styles.
  */
@@ -27,6 +27,7 @@ const buttonStyle = style`
   background: ${colors.green}
   color: ${colors.white}
   margin: 10 20
+  padding: 10%
 
   :hover {
     background: ${colors.blue}
@@ -44,6 +45,20 @@ export default class Button extends Component {
     )
   }
 }
+```
+
+By the way: You can have trailing semicolons like in CSS, too. But they are optional.
+
+```javascript
+style`
+  background: ${colors.green};
+  color: ${colors.white};
+  margin: 20px;
+
+  :hover {
+    background: ${colors.blue};
+  }
+`
 ```
 
 
