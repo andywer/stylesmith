@@ -8,7 +8,7 @@ Stylesmith is a small zero-dependency library to use ES6 tagged **template strin
 for component styling. It's primary purpose is to be used alongside with **React.js** and **Radium**.
 
 Inspired by [React: CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
-and Radium's enhanced style objects (':hover', '@media' keys and similar).
+and [Radium](https://github.com/FormidableLabs/radium)'s enhanced style objects (':hover', '@media' keys and similar).
 
 
 ## Usage with React / Radium
@@ -108,7 +108,7 @@ the `style` property set to it.
 
 ## Why would I need that?
 
-As vjeux points out in his popular talk
+As [vjeux](https://twitter.com/Vjeux) points out in his popular talk
 [React: CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js), CSS styling
 comes with some built-in troubles. Some of them can pretty easy be come over by
 using a pre-processor like SASS or LESS (like variables).
