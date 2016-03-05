@@ -130,6 +130,14 @@ Proper styling, easy and powerful. And you do not even have to preprocess your
 styles anymore!
 
 
+## Known Limitations
+
+Since this is the first release, there are some known issues right now:
+
+- Selector and opening braces (like `:hover {`) must be on the same line
+- Closing braces must be on a separate line
+
+
 ## License
 
 Licensed under the terms of the MIT license. See file [LICENSE](https://github.com/andywer/stylesmith/blob/master/LICENSE) for details.
